@@ -44,6 +44,15 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Animals\Cat.cs" />
+    <Compile Include="Animals\Eagle.cs" />
+    <Compile Include="Animals\Frog.cs" />
+    <Compile Include="Animals\Leo.cs" />
+    <Compile Include="Animals\Shark.cs" />
+    <Compile Include="Interface\Animal.cs" />
+    <Compile Include="Interface\Exceptions.cs" />
+    <Compile Include="Interface\IMovement.cs" />
+    <Compile Include="Interface\ISound.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
@@ -57,6 +66,7 @@
     </None>
     <None Include="packages.config" />
   </ItemGroup>
+  <ItemGroup />
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
        Other similar extension points exist, see Microsoft.Common.targets.
