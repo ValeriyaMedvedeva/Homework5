@@ -9,7 +9,7 @@ namespace Zoo.Animals
 {
     public class Shark: Animal
     {
-        public Shark()
+        public Shark() :this(new Swim(),new Silent())
         {
         }
         public Shark(IMovement move, ISound sound)

@@ -9,7 +9,7 @@ namespace Zoo.Animals
 {
     public class Cat : Animal
     {
-        public Cat()
+        public Cat():this(new Run(),new Meow())
         {
         }
         public Cat(IMovement move, ISound sound)

@@ -9,7 +9,7 @@ namespace Zoo.Animals
 {
     public class Leo : Animal
     {
-        public Leo() 
+        public Leo() :this(new Run(),new Growl())
         {
         }
         public Leo(IMovement move,ISound sound){

@@ -9,7 +9,7 @@ namespace Zoo.Animals
 {
     public class Eagle : Animal
     {
-        public Eagle()
+        public Eagle():this(new Fly(),new Shout())
         {
         }
         public Eagle(IMovement move, ISound sound)
